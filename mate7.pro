@@ -1,11 +1,16 @@
-QT += quick
-
+QT += quick qml
+CONFIG += qmltypes
+QML_IMPORT_NAME = AAAAA
+QML_IMPORT_MAJOR_VERSION = 1
 SOURCES += \
         main.cpp
 
 RESOURCES += \
     qml.qrc \
     qtquickcontrols2.conf
+
+include(statusbar/statusbar.pri)
+INCLUDEPATH += statusbar
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
