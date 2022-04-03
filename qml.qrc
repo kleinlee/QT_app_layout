@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QML/main.qml</file>
+        <file>QML/CustomItems/LineInput.qml</file>
+        <file>QML/MyPage/LoginView.qml</file>
+        <file>QML/MyPage/RegisterView.qml</file>
+        <file>QML/MainView.qml</file>
+        <file>QML/MyPage/MyPage.qml</file>
+        <file>QML/CustomItems/RoundImage.qml</file>
+        <file>huge.jpg</file>
+    </qresource>
+</RCC>
